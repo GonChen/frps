@@ -11,8 +11,8 @@ transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
 webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "admin"
+webServer.user = "charlie"
+webServer.password = "charlie"
 webServer.pprofEnable = false
 
 log.to = "./frps.log"
@@ -22,7 +22,7 @@ log.maxDays = 1
 log.disablePrintColor = false
 
 auth.method = "token"
-auth.token = "12345678"
+auth.token = "charlie"
 
 # Only allow frpc to bind ports you list. By default, there won't be any limit.
 allowPorts = [
